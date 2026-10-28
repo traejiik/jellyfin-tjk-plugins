@@ -1,0 +1,109 @@
+[
+  {
+    "category": "Anime",
+    "guid": "dceb799c-238e-4a33-aa5e-14fc0b1efe9d",
+    "name": "AniDoki",
+    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.",
+    "owner": "traejiik",
+    "overview": "Synchronize anime watch status",
+    "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/anidoki-card.png",
+    "versions": [
+      {
+        "version": "1.4.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Show a sign-in result page after linking a tracker, and stop sign-in links expiring instantly by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/38\n### Fixes\n* Count Kitsu rewatches once and start Shikimori rewatches as rewatching by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/37\n* Sync from every library when the library list was never saved by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/39\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.4...v1.4.0",
+        "timestamp": "2026-10-26T00:52:08Z",
+        "checksum": "b6dee7b2a0809399ce419d0c9e09c42d",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.4.0/anidoki_1.4.0.0.zip"
+      },
+      {
+        "version": "1.3.4.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Fixes\n* Keep settings pages working behind caching reverse proxies by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/35\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.3...v1.3.4",
+        "timestamp": "2026-10-23T07:31:33Z",
+        "checksum": "46260592b313861ab52eb8de56a0d0b0",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.3.4/anidoki_1.3.4.0.zip"
+      },
+      {
+        "version": "1.3.3.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Fixes\n* Keep the release-notes generator comment out of the Jellyfin changelog by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/31\n* Stop ad blockers and themes from hiding or narrowing the settings pages by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/33\n* Keep the AniDōki menu entry after media playback by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/34\n### Documentation\n* Document how release versions are chosen and group release notes by label by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/30\n* Describe stock Jellyfin as the supported theme baseline by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/32\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.2...v1.3.3",
+        "timestamp": "2026-10-23T07:04:22Z",
+        "checksum": "e3bbdda49f3df9e39ebad7d2074425e3",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.3.3/anidoki_1.3.3.0.zip"
+      },
+      {
+        "version": "1.3.2.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* Name the tracker entry behind each result in toasts, the manual card and Discord by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/29\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.1...v1.3.2",
+        "timestamp": "2026-10-19T17:10:07Z",
+        "checksum": "92ce8d0f6dbdf7c25ccb6e5f3411118b",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.3.2/anidoki_1.3.2.0.zip"
+      },
+      {
+        "version": "1.3.1.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* Follow sequels when a tracker splits a season, and describe manual card results by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/28\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.0...v1.3.1",
+        "timestamp": "2026-10-19T06:17:18Z",
+        "checksum": "c0b0924bef5ad34e893761793df48702",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.3.1/anidoki_1.3.1.0.zip"
+      },
+      {
+        "version": "1.3.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* Record current sync decisions before the provider split by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/23\n* Keep tracker credentials out of the plugin configuration by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/24\n* Stop blocking threads while paging tracker lists by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/25\n* Run manual syncs in the background and fix the Jellyfin → Trackers hang by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/26\n* Match movies to tracker entries by ID instead of title by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/27\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.2.0...v1.3.0",
+        "timestamp": "2026-10-18T18:41:50Z",
+        "checksum": "2fc3f073a56802f86ca48dba75d05a1e",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.3.0/anidoki_1.3.0.0.zip"
+      },
+      {
+        "version": "1.2.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* doc: format credit section in README.md by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/11\n* chore: update .gitignore by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/12\n* fix: skip manual-mark prompts outside tracked libraries by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/13\n* fix: stop sync writing to the wrong entry or skipping providers by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/14\n* fix: advance one sequel per cour in the multi-cour walk by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/15\n* fix: stop the cour walk writing past the last cour by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/16\n* fix: stop treating failed tracker requests as successful by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/17\n* fix: harden tracker sign-in by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/18\n* Build versioned local plugin folders and complete Docker packaging by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/19\n* Add editorconfig formatting and enforce it in CI by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/20\n* Tidy legacy code: nullable checks, Plugin Pages JSON, comments and packages by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/21\n* Use structured log templates and quieter information-level logging by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/22\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.1.1...v1.2.0",
+        "timestamp": "2026-10-16T17:47:01Z",
+        "checksum": "17f9966d340118a95ebfe2d5c4a758c7",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.2.0/anidoki_1.2.0.0.zip"
+      },
+      {
+        "version": "1.1.1.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* fix/webhook controls by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/10\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.1.0...v1.1.1",
+        "timestamp": "2026-10-10T23:41:28Z",
+        "checksum": "abef55f6640fc217f5edd0c0bd23d515",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.1.1/anidoki_1.1.1.0.zip"
+      },
+      {
+        "version": "1.1.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* feat/manual watched confirmation by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/9\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.0.0...v1.1.0",
+        "timestamp": "2026-10-10T21:52:33Z",
+        "checksum": "46bab3601bd5d131f9d9aff2393b71ed",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.1.0/anidoki_1.1.0.0.zip"
+      },
+      {
+        "version": "1.0.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* feat/settings and notifications by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/8\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v0.5.0...v1.0.0",
+        "timestamp": "2026-10-10T13:05:24Z",
+        "checksum": "2833c4d6d4d49ff3af84f68b31a1483f",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.0.0/anidoki_1.0.0.0.zip"
+      },
+      {
+        "version": "0.5.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n* fix: update version details in manifest.json by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/2\n* Automate release feed updates and stop tracking agent docs by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/3\n* Generate release changelogs automatically from merged PRs by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/4\n* Fix intermittent Kitsu relation test failures by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/5\n* Feat/anidoki integration branding by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/6\n* Automate release versions and manifest entries from tags by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/7\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v0.1.0...v0.5.0",
+        "timestamp": "2026-10-09T03:23:25Z",
+        "checksum": "dd1592afb68d1c739f400dc4cbc84384",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v0.5.0/anidoki_0.5.0.0.zip"
+      },
+      {
+        "checksum": "fc4303facf0bc2e84a3077232d3c70b8",
+        "changelog": "Build for Jellyfin version 12.2.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v0.1.0/anidoki_0.1.0.0.zip",
+        "timestamp": "2026-10-08T21:45:35Z",
+        "version": "0.1.0.0"
+      }
+    ]
+  }
+]
