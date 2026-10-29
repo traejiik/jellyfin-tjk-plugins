@@ -105,5 +105,24 @@
         "version": "0.1.0.0"
       }
     ]
+  },
+  {
+    "guid": "ac82f485-7bb4-472f-b122-248e1772eca6",
+    "name": "Task Timeline",
+    "category": "administration",
+    "owner": "traejiik",
+    "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-tasktimeline/development/docs/assets/tasktimeline-card.png",
+    "description": "Visualise scheduled tasks on a timeline",
+    "overview": "See upcoming scheduled tasks, their configured triggers, and recent run information in your Jellyfin dashboard.",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Add Task Timeline logo and catalog artwork by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/1\n* Verify native live progress with a diagnostic page by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/3\n* feat: add a read-only task forecast API by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/6\n* feat: add the read-only timeline dashboard by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/7\n* Refine timeline navigation and task inspection by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/8\n* Prepare Git-versioned packages and first-release documentation by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/9\n### Fixes\n* Generate manifest versions only during releases by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/2\n### Maintenance\n* Refresh the combined plugin repository after a release by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/4\n* Note the release changelog and feed URL follow-ups by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/5\n\n## New Contributors\n* @traejiik made their first contribution in https://github.com/traejiik/jellyfin-tasktimeline/pull/1\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-tasktimeline/commits/v0.1.0",
+        "timestamp": "2026-10-29T07:22:17Z",
+        "checksum": "9a1720566309e263a9adf988488ebec3",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-tasktimeline/releases/download/v0.1.0/tasktimeline_0.1.0.0.zip"
+      }
+    ]
   }
 ]
