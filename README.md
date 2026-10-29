@@ -4,18 +4,20 @@ One plugin repository for Jellyfin that serves every plugin below from a single 
 
 ## Install
 
-In Jellyfin, open **Dashboard → Plugins → Repositories**, add a repository, and paste:
+1. In Jellyfin, open **Dashboard → Plugins → Repositories**, add a repository:
 
-```
-https://raw.githubusercontent.com/traejiik/jellyfin-tjk-plugins/main/manifest.json
-```
+    Name: `TJK Plugins`  
+    Repository URL:
+    ```
+    https://raw.githubusercontent.com/traejiik/jellyfin-tjk-plugins/main/manifest.json
+    ```
 
-The plugins then show up in the **Catalog**.
+2. The plugins then show up in the **Catalog**:
 
-| Plugin | Source |
-| --- | --- |
-| AniDoki | [traejiik/jellyfin-anidoki](https://github.com/traejiik/jellyfin-anidoki) |
-| Task Timeline | [traejiik/jellyfin-tasktimeline](https://github.com/traejiik/jellyfin-tasktimeline) |
+    | Plugin | Source |
+    | --- | --- |
+    | AniDoki | [traejiik/jellyfin-anidoki](https://github.com/traejiik/jellyfin-anidoki) |
+    | Task Timeline | [traejiik/jellyfin-tasktimeline](https://github.com/traejiik/jellyfin-tasktimeline) |
 
 ## How it works
 
