@@ -1,2 +1,5 @@
 __pycache__/
 .DS_Store
+# Shared design kit: kept locally, copied into each plugin repository.
+/design/
+.claude/launch.json
