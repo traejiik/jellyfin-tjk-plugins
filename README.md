@@ -1,6 +1,6 @@
 <h1 align="center">traejiik's Jellyfin plugins</h1>
 
-<p><img src="assets/readme-banner.svg" alt="AniDōki and Task Timeline" width="100%" height="240"></p>
+<p><img src="assets/readme-banner.svg" alt="AniDōki and Task Timeline" width="100%"></p>
 
 One plugin repository for Jellyfin that serves every plugin below from a single manifest.
 
