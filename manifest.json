@@ -111,10 +111,18 @@
     "name": "Task Timeline",
     "category": "administration",
     "owner": "traejiik",
-    "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-tasktimeline/development/docs/assets/tasktimeline-card.png",
+    "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-tasktimeline/development/docs/assets/branding/tasktimeline-catalog.svg",
     "description": "Visualise scheduled tasks on a timeline",
     "overview": "See upcoming scheduled tasks, their configured triggers, and recent run information in your Jellyfin dashboard.",
     "versions": [
+      {
+        "version": "0.1.1.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Align the timeline design and fix plugin branding by @traejiik in https://github.com/traejiik/jellyfin-tasktimeline/pull/10\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-tasktimeline/compare/v0.1.0...v0.1.1",
+        "timestamp": "2026-10-31T10:43:39Z",
+        "checksum": "1abe149b9868941b9bbb287ceea6117d",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-tasktimeline/releases/download/v0.1.1/tasktimeline_0.1.1.0.zip"
+      },
       {
         "version": "0.1.0.0",
         "targetAbi": "12.2.0.0",
