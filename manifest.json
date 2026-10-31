@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/anidoki-card.png",
     "versions": [
       {
+        "version": "1.4.1.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Align settings pages with the shared plugin design and refresh branding by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/42\n### Other changes\n* chore: update plugin requirements and repository URL in README by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/41\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.0...v1.4.1",
+        "timestamp": "2026-10-31T10:45:50Z",
+        "checksum": "fcf4297436222d87c64b94228946aee1",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.4.1/anidoki_1.4.1.0.zip"
+      },
+      {
         "version": "1.4.0.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Features\n* Show a sign-in result page after linking a tracker, and stop sign-in links expiring instantly by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/38\n### Fixes\n* Count Kitsu rewatches once and start Shikimori rewatches as rewatching by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/37\n* Sync from every library when the library list was never saved by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/39\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.3.4...v1.4.0",
