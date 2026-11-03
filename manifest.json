@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/branding/anidoki-card.png",
     "versions": [
       {
+        "version": "1.4.3.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Redesign the sign-in result and address check pages, and fix copying the callback URL by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/45\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.2...v1.4.3",
+        "timestamp": "2026-11-03T17:25:55Z",
+        "checksum": "2747d504bbf24dc2dae34e8d822e6ae0",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.4.3/anidoki_1.4.3.0.zip"
+      },
+      {
         "version": "1.4.2.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Fixes\n* Show the AniDōki logo on Manual Sync and make it follow the theme by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/44\n### Documentation\n* Give the README banner a fixed shape by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/43\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.1...v1.4.2",
