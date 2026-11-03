@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/branding/anidoki-card.png",
     "versions": [
       {
+        "version": "1.4.2.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Fixes\n* Show the AniDōki logo on Manual Sync and make it follow the theme by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/44\n### Documentation\n* Give the README banner a fixed shape by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/43\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.1...v1.4.2",
+        "timestamp": "2026-11-03T00:42:58Z",
+        "checksum": "2b05029f500b0cca0330a2ed649cda8b",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.4.2/anidoki_1.4.2.0.zip"
+      },
+      {
         "version": "1.4.1.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Features\n* Align settings pages with the shared plugin design and refresh branding by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/42\n### Other changes\n* chore: update plugin requirements and repository URL in README by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/41\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.0...v1.4.1",
