@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/branding/anidoki-card.png",
     "versions": [
       {
+        "version": "1.5.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Match seasons to the tracker entries each tracker splits them into by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/54\n* Correct your own matches and use saved matches when syncing by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/55\n* Open seasons and the match editor in a popup by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/56\n### Fixes\n* Stop manual sync adding rewatches to Completed seasons by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/51\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.4...v1.5.0",
+        "timestamp": "2026-11-08T15:06:58Z",
+        "checksum": "0617783a38ce8da49e70baee5591b5a6",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.5.0/anidoki_1.5.0.0.zip"
+      },
+      {
         "version": "1.4.4.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Fixes\n* Report tracker failures as failures, and re-check updates planned from an old read by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/47\n### Documentation\n* Remove the upstream-master mirror from the release docs by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/46\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.3...v1.4.4",
