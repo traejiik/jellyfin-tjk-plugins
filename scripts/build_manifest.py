@@ -9,18 +9,34 @@ import argparse
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
 API = 'https://api.github.com'
 
 
-def fetch(url, token=None):
+def is_transient(error):
+    if isinstance(error, urllib.error.HTTPError):
+        return error.code == 429 or error.code >= 500
+    return isinstance(error, (urllib.error.URLError, TimeoutError, ConnectionError))
+
+
+def fetch(url, token=None, attempts=4):
     headers = {'User-Agent': 'jellyfin-tjk-plugins', 'Accept': 'application/vnd.github+json'}
     if token and url.startswith(API):
         headers['Authorization'] = f'Bearer {token}'
-    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as response:
-        return json.load(response)
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as response:
+                return json.load(response)
+        except Exception as error:
+            if attempt == attempts or not is_transient(error):
+                raise
+            delay = 2 ** attempt
+            print(f'Retrying {url} in {delay}s after: {error}', file=sys.stderr)
+            time.sleep(delay)
 
 
 def releases(repository, token):
