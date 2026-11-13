@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/branding/anidoki-card.png",
     "versions": [
       {
+        "version": "1.6.0.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Choose which linked tracker a manual sync to trackers updates by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/58\n* Let admins choose which libraries hold anime by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/59\n* Preview what a manual sync would change before running it by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/62\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.5.0...v1.6.0",
+        "timestamp": "2026-11-13T12:47:25Z",
+        "checksum": "77401df3bccc68490ad19cf581574633",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.6.0/anidoki_1.6.0.0.zip"
+      },
+      {
         "version": "1.5.0.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Features\n* Match seasons to the tracker entries each tracker splits them into by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/54\n* Correct your own matches and use saved matches when syncing by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/55\n* Open seasons and the match editor in a popup by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/56\n### Fixes\n* Stop manual sync adding rewatches to Completed seasons by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/51\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.4.4...v1.5.0",
