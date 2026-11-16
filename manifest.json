@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/traejiik/jellyfin-anidoki/development/docs/assets/branding/anidoki-card.png",
     "versions": [
       {
+        "version": "1.7.1.0",
+        "targetAbi": "12.2.0.0",
+        "changelog": "## What's Changed\n### Features\n* Clearer log lines, levels and conventions by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/68\n### Fixes\n* Check a movie's AniDB ID before trusting it by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/69\n* Handle a missing user list and missing tracker fields instead of failing by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/71\n* Keep syncing when a tracker user ID, page or field is missing by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/72\n* Resolve seasons whose anime-list row has no mappings, and read entries with missing titles by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/73\n* Fix Jellyfin's API docs failing with AniDōki installed, and two account-check errors by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/74\n* Read Simkl entries without alternative titles, and report a failed anime-list download by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/75\n### Documentation\n* Explain how to turn on AniDōki's debug log by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/70\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.7.0...v1.7.1",
+        "timestamp": "2026-11-16T22:03:26Z",
+        "checksum": "a41f41e6a4b007920e09aff86d720cc5",
+        "sourceUrl": "https://github.com/traejiik/jellyfin-anidoki/releases/download/v1.7.1/anidoki_1.7.1.0.zip"
+      },
+      {
         "version": "1.7.0.0",
         "targetAbi": "12.2.0.0",
         "changelog": "## What's Changed\n### Features\n* Group the match list by series and show the episode map as runs by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/63\n* Choose which preview changes to apply by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/67\n### Fixes\n* Read inbound tracker lists in full, with each entry's title and status by @traejiik in https://github.com/traejiik/jellyfin-anidoki/pull/66\n\n\n**Full Changelog**: https://github.com/traejiik/jellyfin-anidoki/compare/v1.6.0...v1.7.0",
